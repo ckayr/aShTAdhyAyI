@@ -1,58 +1,70 @@
 digraph G {
-        label = "विसर्गसन्धिः";
-	fontsize = 30.0;
+        label="विसर्गसन्धिः";
+        node [shape=box, style=rounded];
+	fontsize=30.0;
+	rankdir=LR;
+	splines=polyline;
 	subgraph cluster_0 {
+		label="खरि";
    	        fontsize = 14.0;
 		style=filled;
 		color=lightgrey;
-		node [style=filled,color=white];
-        	a0 [label = "खरवसानयोर्विसर्जनीयः"];
-		a1 [label = "विसर्जनीयस्य सः"];
-		a2 [label = "शर्परे विसर्जनीयः"];
-		a3 [label = "वा शरि"];
-		a4 [label = "कुप्वोः ≍क≍पौ च"];
-		a5 [label = "नमस्पुरसोर्गत्योः"];
-		a6 [label = "इदुदुपधस्य चाप्रत्ययस्य"];
-		a0 -> a1 [label = "खरि"];
-		a0 -> a2 [label = "खरि + शर्"];
-		a0 -> a3 [label = "शरि"];
-		a0 -> a4 [label = "क/ख/प/फ"];
-		a4 -> a5 [label = "नमस् + कृ"];
-		a4 -> a6 [label = "निस्, दुस्,\n बहिस्, आविस्,\n चतुर्, प्रादुस्\n + क/ख/प/फ"];
-		label = "खरि";
+		node [style="filled,rounded", color=white];
+        	a0 [label="खरवसानयोर्विसर्जनीयः"];
+		a6 [label="इदुदुपधस्य चाप्रत्ययस्य"];
+		a5 [label="नमस्पुरसोर्गत्योः"];
+		a4 [label="कुप्वोः ≍क≍पौ च"];
+		a3 [label="वा शरि"];
+		a2 [label="शर्परे विसर्जनीयः"];
+		a1 [label="विसर्जनीयस्य सः"];
+		a7 [label="स्तोः श्चुना श्चुः"];
+		a8 [label="ष्टुना ष्टुः"];
+		a0 -> a1 [label="खरि"];
+		a0 -> a2 [label="खरि + शर्"];
+		a0 -> a3 [label="शरि", style=dashed];
+		a0 -> a4 [label="क/ख/प/फ"];
+		a0 -> a5 [label="नमस् + कृ"];
+		a0 -> a6 [label="निस्, दुस्,\n बहिस्, आविस्,\n चतुर्, प्रादुस्\n + क/ख/प/फ"];
+		a1 -> a3 [label="शरि", style=dashed];
+		a1 -> a7 [label="च्/छ्"];
+		a1 -> a8 [label="ट्/ठ्"];
 	}
 
 	subgraph cluster_1 {
+		label="अखरि";
    	        fontsize = 14.0;
-		node [style=filled];
-		b0 [label = "भोभगोअघोअपूर्वस्य यो ऽशि"];
-		b1 [label = "अतो रोरप्लुतादप्लुते"];
-		b2 [label = "हशि च"];
-		b3 [label = "लोपः शाकल्यस्य"];
-		b4 [label = "हलि सर्वेषाम्"];
-		b5 [label = "रो रि;\n ढ्रलोपे पूर्वस्य दीर्घोऽणः"];
-		b0 -> b1 [label = "अतः + अति"];
-		b0 -> b2 [label = "अतः + हशि"];
-		b0 -> b3 [label = "अ + अचि (विकल्पः)"];
-		b0 -> b4 [label = "अ + हशि (नित्यम्)"];
-		label = "अखरि";
-		color=blue;
+		node [style="filled,rounded", color=grey];
+		b0 [label="भोभगोअघोअपूर्वस्य यो ऽशि"];
+		b1 [label="अतो रोरप्लुतादप्लुते"];
+		b2 [label="हशि च"];
+		b3 [label="लोपः शाकल्यस्य"];
+		b4 [label="हलि सर्वेषाम्"];
+		b0 -> b3 [label="अ + अचि"; style=dashed];
+		b0 -> b4 [label="अ + हशि"];
 	}
 
-	subgraph cluster_2 {
-   	        fontsize = 14.0;
-	        color = magenta;
-		c0 [label = "एतत्तदोः सुलोपोऽकोरनञ्समासे हलि"];
-		label = "";
-	}
+        c0 [label="रो रि;\n ढ्रलोपे पूर्वस्य दीर्घोऽणः", color=cyan, style="filled,rounded"];
+        d0 [label="एतत्तदोः सुलोपोऽकोरनञ्समासे हलि", color=orange, style="filled,rounded"];
 
-        start0 [label = "<पदम्>: + <पदम्>"];
-	start1 [label = "ससजुषो रुः"];
+        start0 [label="<पदम्>: + <पदम्>"];
+	start1 [label="ससजुषो रुः"];
 	start0 -> start1;
 	start1 -> a0;
-	start1 -> b0 [label = "अ + अशि"];
-	start1 -> b5 [label = "इण्‌ + रः + रि "];
-	start1 -> c0 [label = "एतत्तदोः + हलि"];
+	start1 -> b0 [label="अ + अशि"];
+	start1 -> b1 [label="अतः + अति"];
+	start1 -> b2 [label="अतः + हशि"];
+	start1 -> c0 [label="एतत्तदोः + हलि"];
+	start1 -> d0 [label="इण्‌ + रः + रि "];
 
-	start0 [shape=Mdiamond];
+	start0 [shape=egg];
+
+	subgraph cluster_leg {
+	        label="दर्शयिता";
+	        legend1 [label=""];
+	        legend2 [label=""];
+	        legend3 [label=""];
+	        legend4 [label=""];
+                legend1 -> legend2 [label="वैकल्पिकसूत्रम्", style=dashed];
+	        legend3 -> legend4 [label="नित्यसूत्रम्"];
+	}
 }
