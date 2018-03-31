@@ -1,0 +1,58 @@
+digraph G {
+        label = "विसर्गसन्धिः";
+	fontsize = 30.0;
+	subgraph cluster_0 {
+   	        fontsize = 14.0;
+		style=filled;
+		color=lightgrey;
+		node [style=filled,color=white];
+        	a0 [label = "खरवसानयोर्विसर्जनीयः"];
+		a1 [label = "विसर्जनीयस्य सः"];
+		a2 [label = "शर्परे विसर्जनीयः"];
+		a3 [label = "वा शरि"];
+		a4 [label = "कुप्वोः ≍क≍पौ च"];
+		a5 [label = "नमस्पुरसोर्गत्योः"];
+		a6 [label = "इदुदुपधस्य चाप्रत्ययस्य"];
+		a0 -> a1 [label = "खरि"];
+		a0 -> a2 [label = "खरि + शर्"];
+		a0 -> a3 [label = "शरि"];
+		a0 -> a4 [label = "क/ख/प/फ"];
+		a4 -> a5 [label = "नमस् + कृ"];
+		a4 -> a6 [label = "निस्, दुस्,\n बहिस्, आविस्,\n चतुर्, प्रादुस्\n + क/ख/प/फ"];
+		label = "खरि";
+	}
+
+	subgraph cluster_1 {
+   	        fontsize = 14.0;
+		node [style=filled];
+		b0 [label = "भोभगोअघोअपूर्वस्य यो ऽशि"];
+		b1 [label = "अतो रोरप्लुतादप्लुते"];
+		b2 [label = "हशि च"];
+		b3 [label = "लोपः शाकल्यस्य"];
+		b4 [label = "हलि सर्वेषाम्"];
+		b5 [label = "रो रि;\n ढ्रलोपे पूर्वस्य दीर्घोऽणः"];
+		b0 -> b1 [label = "अतः + अति"];
+		b0 -> b2 [label = "अतः + हशि"];
+		b0 -> b3 [label = "अ + अचि (विकल्पः)"];
+		b0 -> b4 [label = "अ + हशि (नित्यम्)"];
+		label = "अखरि";
+		color=blue;
+	}
+
+	subgraph cluster_2 {
+   	        fontsize = 14.0;
+	        color = magenta;
+		c0 [label = "एतत्तदोः सुलोपोऽकोरनञ्समासे हलि"];
+		label = "";
+	}
+
+        start0 [label = "<पदम्>: + <पदम्>"];
+	start1 [label = "ससजुषो रुः"];
+	start0 -> start1;
+	start1 -> a0;
+	start1 -> b0 [label = "अ + अशि"];
+	start1 -> b5 [label = "इण्‌ + रः + रि "];
+	start1 -> c0 [label = "एतत्तदोः + हलि"];
+
+	start0 [shape=Mdiamond];
+}
