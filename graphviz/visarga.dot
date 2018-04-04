@@ -1,6 +1,7 @@
 digraph G {
         label="विसर्गसन्धिः";
-        node [shape=box, style=rounded];
+        node [shape=box,
+	      style=rounded];
         fontsize=30.0;
         rankdir=LR;
         splines=polyline;
@@ -9,14 +10,17 @@ digraph G {
                 fontsize = 14.0;
                 style=filled;
                 color=lightgrey;
-                node [style="filled,rounded", color=white];
-                a0 [label="खरवसानयोर्विसर्जनीयः", href="http://avg-sanskrit.org/sutras/8-3-15.html"];
+                node [style="filled,rounded",
+		      color=white];
+                a0 [label="खरवसानयोर्विसर्जनीयः",
+		    href="http://avg-sanskrit.org/sutras/8-3-15.html"];
                 a6 [label="इदुदुपधस्य चाप्रत्ययस्य"];
                 a5 [label="नमस्पुरसोर्गत्योः"];
                 a4 [label="कुप्वोः ≍क≍पौ च"];
                 a3 [label="वा शरि"];
                 a2 [label="शर्परे विसर्जनीयः"];
-                a1 [label="विसर्जनीयस्य सः", href="http://avg-sanskrit.org/sutras/8-3-34.html"];
+                a1 [label="विसर्जनीयस्य सः",
+		    href="http://avg-sanskrit.org/sutras/8-3-34.html"];
                 a7 [label="स्तोः श्चुना श्चुः"];
                 a8 [label="ष्टुना ष्टुः"];
                 a0 -> a1 [label="खरि"];
@@ -43,11 +47,16 @@ digraph G {
                 b0 -> b4 [label="अ + हशि"];
         }
 
-        c0 [label="रो रि;\n ढ्रलोपे पूर्वस्य दीर्घोऽणः", color=cyan, style="filled,rounded"];
-        d0 [label="एतत्तदोः सुलोपोऽकोरनञ्समासे हलि", color=orange, style="filled,rounded"];
+        c0 [label="रो रि;\n ढ्रलोपे पूर्वस्य दीर्घोऽणः",
+	    color=cyan,
+	    style="filled,rounded"];
+        d0 [label="एतत्तदोः सुलोपोऽकोरनञ्समासे हलि",
+	    color=orange,
+	    style="filled,rounded"];
 
         start0 [label="<पदम्>: + <पदम्>"];
-        start1 [label="ससजुषो रुः", href="http://avg-sanskrit.org/sutras/8-2-66.html"];
+        start1 [label="ससजुषो रुः",
+		href="http://avg-sanskrit.org/sutras/8-2-66.html"];
         start0 -> start1;
         start1 -> a0;
         start1 -> b0 [label="अ + अशि"];
@@ -64,7 +73,8 @@ digraph G {
                 legend2 [label=""];
                 legend3 [label=""];
                 legend4 [label=""];
-                legend1 -> legend2 [label="वैकल्पिकसूत्रम्", style=dashed];
+                legend1 -> legend2 [label="वैकल्पिकसूत्रम्",
+				    style=dashed];
                 legend3 -> legend4 [label="नित्यसूत्रम्"];
         }
 }
