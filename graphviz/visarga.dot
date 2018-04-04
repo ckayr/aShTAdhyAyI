@@ -49,10 +49,8 @@ digraph G {
         }
 
         c0 [label="रो रि;\n ढ्रलोपे पूर्वस्य दीर्घोऽणः\n(उदा) हरि रमते; हरी रमते",
-	    color=cyan,
 	    style="filled,rounded"];
         d0 [label="एतत्तदोः सुलोपोऽकोरनञ्समासे हलि\n(उदा) स पश्यति; एष करोति",
-	    color=orange,
 	    style="filled,rounded"];
 
         start0 [label="<पदम्>: + <पदम्>"];
