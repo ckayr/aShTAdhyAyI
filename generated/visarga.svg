@@ -25,8 +25,8 @@
 <!-- a0 -->
 <g id="node1" class="node"><title>a0</title>
 <g id="a_node1"><a xlink:href="http://avg-sanskrit.org/sutras/8-3-15.html" xlink:title="खरवसानयोर्विसर्जनीयः">
-<path fill="white" stroke="white" d="M648.615,-524C648.615,-524 536.615,-524 536.615,-524 530.615,-524 524.615,-518 524.615,-512 524.615,-512 524.615,-500 524.615,-500 524.615,-494 530.615,-488 536.615,-488 536.615,-488 648.615,-488 648.615,-488 654.615,-488 660.615,-494 660.615,-500 660.615,-500 660.615,-512 660.615,-512 660.615,-518 654.615,-524 648.615,-524"/>
-<text text-anchor="middle" x="592.615" y="-502.3" font-family="Times,serif" font-size="14.00">खरवसानयोर्विसर्जनीयः</text>
+<path fill="white" stroke="white" d="M648.615,-539C648.615,-539 536.615,-539 536.615,-539 530.615,-539 524.615,-533 524.615,-527 524.615,-527 524.615,-515 524.615,-515 524.615,-509 530.615,-503 536.615,-503 536.615,-503 648.615,-503 648.615,-503 654.615,-503 660.615,-509 660.615,-515 660.615,-515 660.615,-527 660.615,-527 660.615,-533 654.615,-539 648.615,-539"/>
+<text text-anchor="middle" x="592.615" y="-517.3" font-family="Times,serif" font-size="14.00">खरवसानयोर्विसर्जनीयः</text>
 </a>
 </g>
 </g>
@@ -38,12 +38,12 @@
 </g>
 <!-- a0&#45;&gt;a6 -->
 <g id="edge6" class="edge"><title>a0&#45;&gt;a6</title>
-<path fill="none" stroke="black" d="M613.407,-487.919C647.835,-456.466 715.115,-395 715.115,-395 715.115,-395 816.818,-391.126 893.614,-388.2"/>
-<polygon fill="black" stroke="black" points="893.936,-391.69 903.796,-387.812 893.67,-384.695 893.936,-391.69"/>
-<text text-anchor="middle" x="790.615" y="-443.8" font-family="Times,serif" font-size="14.00">निस्, दुस्,</text>
-<text text-anchor="middle" x="790.615" y="-428.8" font-family="Times,serif" font-size="14.00"> बहिस्, आविस्,</text>
-<text text-anchor="middle" x="790.615" y="-413.8" font-family="Times,serif" font-size="14.00"> चतुर्, प्रादुस्</text>
-<text text-anchor="middle" x="790.615" y="-398.8" font-family="Times,serif" font-size="14.00"> + क/ख/प/फ</text>
+<path fill="none" stroke="black" d="M610.509,-502.785C643.894,-466.79 715.115,-390 715.115,-390 715.115,-390 816.818,-388.063 893.614,-386.6"/>
+<polygon fill="black" stroke="black" points="893.864,-390.096 903.796,-386.406 893.731,-383.097 893.864,-390.096"/>
+<text text-anchor="middle" x="790.615" y="-438.8" font-family="Times,serif" font-size="14.00">निस्, दुस्,</text>
+<text text-anchor="middle" x="790.615" y="-423.8" font-family="Times,serif" font-size="14.00"> बहिस्, आविस्,</text>
+<text text-anchor="middle" x="790.615" y="-408.8" font-family="Times,serif" font-size="14.00"> चतुर्, प्रादुस्</text>
+<text text-anchor="middle" x="790.615" y="-393.8" font-family="Times,serif" font-size="14.00"> + क/ख/प/फ</text>
 </g>
 <!-- a5 -->
 <g id="node3" class="node"><title>a5</title>
@@ -53,9 +53,9 @@
 </g>
 <!-- a0&#45;&gt;a5 -->
 <g id="edge5" class="edge"><title>a0&#45;&gt;a5</title>
-<path fill="none" stroke="black" d="M660.762,-492.184C688.862,-486.402 715.115,-481 715.115,-481 715.115,-481 836.634,-462.483 914.312,-450.646"/>
-<polygon fill="black" stroke="black" points="915.136,-454.061 924.495,-449.095 914.081,-447.141 915.136,-454.061"/>
-<text text-anchor="middle" x="790.615" y="-484.8" font-family="Times,serif" font-size="14.00">नमस् + कृ</text>
+<path fill="none" stroke="black" d="M636.794,-502.876C671.716,-488.217 715.115,-470 715.115,-470 715.115,-470 836.634,-456.575 914.312,-447.994"/>
+<polygon fill="black" stroke="black" points="914.939,-451.446 924.495,-446.869 914.171,-444.488 914.939,-451.446"/>
+<text text-anchor="middle" x="790.615" y="-473.8" font-family="Times,serif" font-size="14.00">नमस् + कृ</text>
 </g>
 <!-- a4 -->
 <g id="node4" class="node"><title>a4</title>
@@ -65,9 +65,9 @@
 </g>
 <!-- a0&#45;&gt;a4 -->
 <g id="edge4" class="edge"><title>a0&#45;&gt;a4</title>
-<path fill="none" stroke="black" d="M660.943,-504.422C719.763,-503.043 806.088,-501.02 873.757,-499.434"/>
-<polygon fill="black" stroke="black" points="874.109,-502.927 884.024,-499.194 873.945,-495.929 874.109,-502.927"/>
-<text text-anchor="middle" x="790.615" y="-507.8" font-family="Times,serif" font-size="14.00">क/ख/प/फ</text>
+<path fill="none" stroke="black" d="M660.943,-516.792C719.763,-513.116 806.088,-507.72 873.757,-503.491"/>
+<polygon fill="black" stroke="black" points="874.262,-506.967 884.024,-502.849 873.825,-499.98 874.262,-506.967"/>
+<text text-anchor="middle" x="790.615" y="-517.8" font-family="Times,serif" font-size="14.00">क/ख/प/फ</text>
 </g>
 <!-- a3 -->
 <g id="node5" class="node"><title>a3</title>
@@ -77,9 +77,9 @@
 </g>
 <!-- a0&#45;&gt;a3 -->
 <g id="edge3" class="edge"><title>a0&#45;&gt;a3</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M660.762,-515.395C688.862,-519.327 715.115,-523 715.115,-523 715.115,-523 982.906,-536.376 1126.73,-543.56"/>
-<polygon fill="black" stroke="black" points="1126.7,-547.063 1136.86,-544.066 1127.05,-540.072 1126.7,-547.063"/>
-<text text-anchor="middle" x="978.615" y="-544.8" font-family="Times,serif" font-size="14.00">शरि</text>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M660.762,-536.474C688.862,-542.95 715.115,-549 715.115,-549 715.115,-549 866.115,-549 866.115,-549 866.115,-549 1023.04,-548.551 1126.59,-548.255"/>
+<polygon fill="black" stroke="black" points="1126.76,-551.754 1136.75,-548.226 1126.73,-544.754 1126.76,-551.754"/>
+<text text-anchor="middle" x="978.615" y="-552.8" font-family="Times,serif" font-size="14.00">शरि</text>
 </g>
 <!-- a2 -->
 <g id="node6" class="node"><title>a2</title>
@@ -89,9 +89,9 @@
 </g>
 <!-- a0&#45;&gt;a2 -->
 <g id="edge2" class="edge"><title>a0&#45;&gt;a2</title>
-<path fill="none" stroke="black" d="M636.794,-524.124C671.716,-538.783 715.115,-557 715.115,-557 715.115,-557 836.969,-578.818 914.632,-592.723"/>
-<polygon fill="black" stroke="black" points="914.35,-596.228 924.81,-594.545 915.584,-589.338 914.35,-596.228"/>
-<text text-anchor="middle" x="790.615" y="-587.8" font-family="Times,serif" font-size="14.00">खरि + शर्</text>
+<path fill="none" stroke="black" d="M645.847,-539.056C678.778,-550.439 715.115,-563 715.115,-563 715.115,-563 836.969,-582.032 914.632,-594.163"/>
+<polygon fill="black" stroke="black" points="914.39,-597.667 924.81,-595.752 915.47,-590.751 914.39,-597.667"/>
+<text text-anchor="middle" x="790.615" y="-589.8" font-family="Times,serif" font-size="14.00">खरि + शर्</text>
 </g>
 <!-- a1 -->
 <g id="node7" class="node"><title>a1</title>
@@ -104,15 +104,15 @@
 </g>
 <!-- a0&#45;&gt;a1 -->
 <g id="edge1" class="edge"><title>a0&#45;&gt;a1</title>
-<path fill="none" stroke="black" d="M616.184,-524.018C651.321,-552.069 715.115,-603 715.115,-603 715.115,-603 836.634,-629.387 914.312,-646.254"/>
-<polygon fill="black" stroke="black" points="913.98,-649.763 924.495,-648.465 915.465,-642.923 913.98,-649.763"/>
-<text text-anchor="middle" x="790.615" y="-637.8" font-family="Times,serif" font-size="14.00">खरि</text>
+<path fill="none" stroke="black" d="M615.618,-539.109C650.631,-567.926 715.115,-621 715.115,-621 715.115,-621 836.634,-639.054 914.312,-650.595"/>
+<polygon fill="black" stroke="black" points="914.089,-654.1 924.495,-652.108 915.118,-647.176 914.089,-654.1"/>
+<text text-anchor="middle" x="790.615" y="-645.8" font-family="Times,serif" font-size="14.00">खरि</text>
 </g>
 <!-- a1&#45;&gt;a3 -->
 <g id="edge7" class="edge"><title>a1&#45;&gt;a3</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1032.65,-644.118C1053.75,-637.799 1073.12,-632 1073.12,-632 1073.12,-632 1091.12,-607 1091.12,-607 1091.12,-607 1137.12,-576 1137.12,-576 1137.12,-576 1143.45,-573.739 1152.53,-570.502"/>
-<polygon fill="black" stroke="black" points="1153.71,-573.797 1161.95,-567.141 1151.36,-567.204 1153.71,-573.797"/>
-<text text-anchor="middle" x="1105.12" y="-610.8" font-family="Times,serif" font-size="14.00">शरि</text>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1032.65,-644.118C1053.75,-637.799 1073.12,-632 1073.12,-632 1073.12,-632 1091.12,-592 1091.12,-592 1091.12,-592 1121.48,-581.27 1152.21,-570.407"/>
+<polygon fill="black" stroke="black" points="1153.47,-573.675 1161.73,-567.043 1151.14,-567.075 1153.47,-573.675"/>
+<text text-anchor="middle" x="1105.12" y="-595.8" font-family="Times,serif" font-size="14.00">शरि</text>
 </g>
 <!-- a7 -->
 <g id="node8" class="node"><title>a7</title>
@@ -152,9 +152,9 @@
 </g>
 <!-- b0&#45;&gt;b3 -->
 <g id="edge10" class="edge"><title>b0&#45;&gt;b3</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M676.672,-287.012C698.029,-283.672 715.115,-281 715.115,-281 715.115,-281 825.231,-265.479 902.823,-254.542"/>
-<polygon fill="black" stroke="black" points="903.651,-257.96 913.064,-253.099 902.674,-251.029 903.651,-257.96"/>
-<text text-anchor="middle" x="790.615" y="-284.8" font-family="Times,serif" font-size="14.00">अ + आचि/अ(&#45;अत्) + अशि</text>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M664.083,-280.936C682.409,-275.979 697.115,-272 697.115,-272 697.115,-272 715.115,-265 715.115,-265 715.115,-265 825.231,-256.191 902.823,-249.983"/>
+<polygon fill="black" stroke="black" points="903.375,-253.45 913.064,-249.164 902.817,-246.473 903.375,-253.45"/>
+<text text-anchor="middle" x="790.615" y="-268.8" font-family="Times,serif" font-size="14.00">अ + आचि/अ(&#45;अत्) + अशि</text>
 </g>
 <!-- b4 -->
 <g id="node14" class="node"><title>b4</title>
@@ -213,8 +213,8 @@
 </g>
 <!-- start1&#45;&gt;a0 -->
 <g id="edge13" class="edge"><title>start1&#45;&gt;a0</title>
-<path fill="none" stroke="black" d="M340.05,-233.155C356.476,-255.352 382.115,-290 382.115,-290 382.115,-290 511.851,-423.761 567.136,-480.761"/>
-<polygon fill="black" stroke="black" points="564.639,-483.214 574.114,-487.955 569.664,-478.34 564.639,-483.214"/>
+<path fill="none" stroke="black" d="M340.05,-233.155C356.476,-255.352 382.115,-290 382.115,-290 382.115,-290 513.707,-435.096 568.307,-495.299"/>
+<polygon fill="black" stroke="black" points="565.866,-497.818 575.176,-502.874 571.051,-493.115 565.866,-497.818"/>
 </g>
 <!-- start1&#45;&gt;b0 -->
 <g id="edge14" class="edge"><title>start1&#45;&gt;b0</title>
