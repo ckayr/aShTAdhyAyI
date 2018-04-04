@@ -61,8 +61,8 @@ digraph G {
         start1 -> b0 [label="अ + अशि"];
         start1 -> b1 [label="अतः + अति"];
         start1 -> b2 [label="अतः + हशि"];
-        start1 -> c0 [label="इण्‌ + रः + रि "];
-        start1 -> d0 [label="एतत्तदोः + हलि"];
+        start1 -> c0 [label="\nइण्‌ + रः + रि "];
+        start1 -> d0 [label="\nएतत्तदोः + हलि"];
 
         start0 [shape=egg];
 

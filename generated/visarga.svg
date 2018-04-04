@@ -236,15 +236,15 @@
 </g>
 <!-- start1&#45;&gt;c0 -->
 <g id="edge17" class="edge"><title>start1&#45;&gt;c0</title>
-<path fill="none" stroke="black" d="M353.715,-196.934C367.803,-187.541 382.115,-178 382.115,-178 382.115,-178 448.768,-160.82 506.883,-145.84"/>
-<polygon fill="black" stroke="black" points="508.058,-149.152 516.868,-143.267 506.311,-142.373 508.058,-149.152"/>
-<text text-anchor="middle" x="426.115" y="-181.8" font-family="Times,serif" font-size="14.00">इण्‌ + रः + रि </text>
+<path fill="none" stroke="black" d="M345.715,-196.76C361.77,-181.429 382.115,-162 382.115,-162 382.115,-162 448.768,-149.91 506.883,-139.369"/>
+<polygon fill="black" stroke="black" points="507.654,-142.787 516.868,-137.558 506.404,-135.899 507.654,-142.787"/>
+<text text-anchor="middle" x="426.115" y="-165.8" font-family="Times,serif" font-size="14.00">इण्‌ + रः + रि </text>
 </g>
 <!-- start1&#45;&gt;d0 -->
 <g id="edge18" class="edge"><title>start1&#45;&gt;d0</title>
-<path fill="none" stroke="black" d="M339.488,-196.909C355.883,-173.867 382.115,-137 382.115,-137 382.115,-137 488.115,-88 488.115,-88 488.115,-88 497.824,-85.3735 511.294,-81.7293"/>
-<polygon fill="black" stroke="black" points="512.409,-85.0537 521.148,-79.0636 510.581,-78.2966 512.409,-85.0537"/>
-<text text-anchor="middle" x="426.115" y="-140.8" font-family="Times,serif" font-size="14.00">एतत्तदोः + हलि</text>
+<path fill="none" stroke="black" d="M336.538,-196.586C352.501,-166.959 382.115,-112 382.115,-112 382.115,-112 447.25,-95.833 504.882,-81.5281"/>
+<polygon fill="black" stroke="black" points="505.933,-84.8736 514.795,-79.0676 504.246,-78.0798 505.933,-84.8736"/>
+<text text-anchor="middle" x="426.115" y="-115.8" font-family="Times,serif" font-size="14.00">एतत्तदोः + हलि</text>
 </g>
 <!-- legend1 -->
 <g id="node19" class="node"><title>legend1</title>
